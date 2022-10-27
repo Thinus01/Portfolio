@@ -21,9 +21,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-
   gap: 8px;
-
   position: absolute;
   width: 259px;
   height: 40px;
@@ -75,7 +73,6 @@ body {
   line-height: 52px;
   color: #172b4d;
   text-align: left;
-
 }
 
 .headline_content {
@@ -96,7 +93,6 @@ body {
   margin-top: 10px;
   margin-right: 10px;
   display: inline-block;
-
 }
 
 .social_link a {
@@ -110,7 +106,7 @@ body {
   width: 40px;
 }
 
-.hamburger{
+.hamburger {
   display: flex;
   width: 50px;
 }
