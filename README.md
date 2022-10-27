@@ -1,29 +1,27 @@
-Portfolio: setup and mobile first
-This projects shows my mobile Portfolio
-
-Built With
-HTML
-CSS
-
-
-Authors
-👤 @Thinus01
-
-GitHub: @Thinus01
-Twitter: @thinus_v_d_v
-LinkedIn: LinkedIn
-👤 Author2
-
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: Thinus Van de Venter
-
-Show your support
-Give a ⭐️ if you like this project!
-
-Acknowledgments
-This was an excelent coding challenge that Microverse gave out that tought me a lot.
-📝 License
-This project is MIT licensed.
-
-NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
+![](https://img.shields.io/badge/Microverse-blueviolet)
+# Portfolio: setup and mobile first project
+> This project shows my Portfolio: setup and mobile first on a webpage.
+## Built With
+- HTML and CSS
+## Getting Started
+To get a local copy up and running follow these simple example steps.
+### Prerequisites
+### Setup
+Clone this repository by using the command line :
+`git clone https://github.com/Thinus01/Hello-Microverse.git`
+### Install
+### Usage
+### Run tests
+### Deployment
+## Authors
+- GitHub: [@Thinus01](https://github.com/Thinus01)
+## :handshake: Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
+## Show your support
+Give a :star:️ if you like this project!
+## Acknowledgments
+- Completing a challenge like this is an accomplishment by it self
+- As the old saying goes: GitHub was not build in one day. 
+## :memo: License
+This project is [MIT](./LICENSE) licensed.
