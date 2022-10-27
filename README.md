@@ -8,7 +8,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 ### Setup
 Clone this repository by using the command line :
-`git clone https://github.com/Thinus01/Hello-Microverse.git`
+`git clone https://github.com/Thinus01/Portfolio.git`
 ### Install
 ### Usage
 ### Run tests
