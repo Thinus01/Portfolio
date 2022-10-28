@@ -32,7 +32,7 @@ button {
   /* My logo properties */
   width: 150px;
   height: 50px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -73,7 +73,7 @@ button {
   /* I'm glad to see you propperties */
   width: 327px;
   height: 30px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
@@ -91,7 +91,7 @@ button {
   position: absolute;
   width: 327px;
   height: 146px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -108,7 +108,7 @@ button {
   position: absolute;
   width: 217px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -134,12 +134,12 @@ button {
 }
 
 .social_icon1 {
-    /* Social media Icon */
-    position: absolute;
-    left: 6.4%;
-    right: 88.27%;
-    top: 52.81%;
-    bottom: 18.88%;
+  /* Social media Icon */
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 52.81%;
+  bottom: 18.88%;
 }
 
 .social_icon2 {
