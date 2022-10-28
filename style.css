@@ -1,112 +1,179 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+  /* Core HTML properties */
+  position: relative;
+  width: 375px;
+  height: 812px;
+  background: #F7F7F9;
+  font-family: 'Poppins', sans-serif;
 }
 
-.html,
-body {
-  font-family: Poppins, sans-serif;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.header_nav {
-  min-height: 10vh;
-  display: flex;
-  padding: 10px 20px;
-  justify-content: space-between;
-  align-items: center;
+button{
+  padding: 3px;
+  border: 2px solid #ACB7C3;
 }
 
 .item_nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
+  /* Hamburger properties*/
   position: absolute;
-  width: 259px;
-  height: 40px;
-  left: 1200px;
-  top: 75px;
+  width: 18px;
+  height: 12px;
+  right: 10%;
+  top: 25px;
 }
 
-.nav_detail {
+.header_nav {
+    /* My logo properties*/
+  width: 150px;
+  height: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
   display: flex;
-  color: #344563;
+  align-items: center;
+  text-align: center;
+  color: #6070FF;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.header_logo {
-  font-weight: 1000;
-  line-height: 20px;
-  font-size: 40px;
-  color: #6070ff;
-}
-
-.header_menu {
-  padding: 3px 5px;
-}
-
 .background_shape {
+    /* background properteis*/
   position: absolute;
-  width: 135%;
-  height: 100%;
-  left: 1px;
+  width: 400px;
+  height: 600.15px;
+  left: -34px;
   top: 104px;
 }
 
 .headline {
-  padding: 25px;
-  min-height: 80vh;
-  display: flex;
-  background-size: contain;
+    /* All text and Icons propperties*/
   flex-direction: column;
-  background-image: url("./images/header-shapes-mobile.png");
-  align-items: center;
-}
-
-.headline_title {
-  margin-top: 250px;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  color: #172b4d;
-  text-align: left;
-}
-
-.headline_content {
-  color: #344563;
-  font-weight: 400;
-  margin: 15px 0;
-  background: #fff;
-}
-
-.social_title {
-  color: #949494;
-  font-size: 16px;
-  font-weight: normal;
-}
-
-.social_link {
-  list-style: none;
-  margin-top: 10px;
-  margin-right: 10px;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px/2);
+  top: 92px;
   display: inline-block;
 }
 
-.social_link a {
-  margin-right: 10px;
-  margin-top: 10px;
-  width: 15px;
-}
-
-.social_icon {
-  max-width: 100%;
-  width: 40px;
-}
-
-.hamburger {
+.headline_title {
+    /* I'm glad to see you propperties*/
+  width: 327px;
+  height: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 52px;
   display: flex;
-  width: 50px;
+  align-items: center;
+  color: #172B4D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.headline_content {
+    /* I'm a software dev properties*/
+  position: absolute;
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  top: 240px;
+}
+
+.social_title {
+    /* LET'S CONNECT propperties */
+  position: absolute;
+  width: 217px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 385px;
+}
+
+.social_link {
+    /* All Social links */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 117px;
+  height: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.social_icon1 {
+    /* Social media Icon */
+    position: absolute;
+    left: 6.4%;
+    right: 88.27%;
+    top: 52.81%;
+    bottom: 18.88%;
+}
+
+.social_icon2 {
+  /* Social media Icon */
+  position: absolute;
+  left: 16.8%;
+  right: 81.87%;
+  top: 52.85%;
+  bottom: 18.87%;
+}
+
+.social_icon3 {
+  position: absolute;
+  left: 38.13%;
+  right: 57.07%;
+  top: 52.81%;
+  bottom: 18.87%;
+}
+
+.social_icon4 {
+  /* Social media Icon */
+  position: absolute;
+  left: 27.47%;
+  right: 67.2%;
+  top: 53.15%;
+  bottom: 19.21%;
+}
+
+.social_icon5 {
+  /* Social media Icon */
+  position: absolute;
+  left: 48%;
+  right: 48.22%;
+  top: 52.81%;
+  bottom: 18.87%;
 }
