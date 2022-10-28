@@ -20,7 +20,7 @@ button {
 }
 
 .item_nav {
-     /* Hamburger properties */
+       /* Hamburger properties */
   position: absolute;
   width: 18px;
   height: 12px;
@@ -29,7 +29,7 @@ button {
 }
 
 .header_nav {
-      /* My logo properties */
+        /* My logo properties */
   width: 150px;
   height: 50px;
   font-family: 'Poppins';
@@ -40,14 +40,14 @@ button {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .background_shape {
-      /* background properteis */
+        /* background properteis */
   position: absolute;
   width: 400px;
   height: 600.15px;
@@ -56,7 +56,7 @@ button {
 }
 
 .headline {
-      /* All text and Icons propperties */
+        /* All text and Icons propperties */
   flex-direction: column;
   align-items: flex-start;
   padding: 114px 24px;
@@ -64,13 +64,13 @@ button {
   position: absolute;
   width: 375px;
   height: 604px;
-  left: calc(50% - 375px/2);
+  left: calc(50% - 375px / 2);
   top: 92px;
   display: inline-block;
 }
 
 .headline_title {
-      /* I'm glad to see you propperties */
+        /* I'm glad to see you propperties */
   width: 327px;
   height: 30px;
   font-family: 'Poppins';
@@ -80,14 +80,14 @@ button {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .headline_content {
-      /* I'm a software dev properties */
+        /* I'm a software dev properties */
   position: absolute;
   width: 327px;
   height: 146px;
@@ -104,7 +104,7 @@ button {
 }
 
 .social_title {
-      /* LET'S CONNECT propperties */
+        /* LET'S CONNECT propperties */
   position: absolute;
   width: 217px;
   height: 24px;
@@ -121,7 +121,7 @@ button {
 }
 
 .social_link {
-        /* All Social links */
+          /* All Social links */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -134,12 +134,12 @@ button {
 }
 
 .social_icon1 {
-      /* Social media Icon */
-      position: absolute;
-      left: 6.4%;
-      right: 88.27%;
-      top: 52.81%;
-      bottom: 18.88%;
+        /* Social media Icon */
+        position: absolute;
+        left: 6.4%;
+        right: 88.27%;
+        top: 52.81%;
+        bottom: 18.88%;
 }
 
 .social_icon2 {
