@@ -9,10 +9,6 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 Clone this repository by using the command line :
 `git clone https://github.com/Thinus01/Portfolio.git`
-### Install
-### Usage
-### Run tests
-### Deployment
 ## Authors
 - GitHub: [@Thinus01](https://github.com/Thinus01)
 ## :handshake: Contributing
